@@ -1,0 +1,58 @@
+Initialize engine version: 4.6.3f1 (4753d8b6ef2b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics (ID=0x102)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\MyUnityProjects\uGUIProject\Bin\UGUI_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 5.351732 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 2.556184 ms (FindLiveObjects: 0.020195 ms CreateObjectMapping: 0.014235 ms MarkObjects: 0.374770 ms  DeleteObjects: 0.015229 ms)
+
+1024
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+768
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 0.738946 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 183.
+Total: 1.283224 ms (FindLiveObjects: 0.007283 ms CreateObjectMapping: 0.008938 ms MarkObjects: 0.183412 ms  DeleteObjects: 0.037741 ms)
+
+UnloadTime: 0.796883 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 2.481694 ms (FindLiveObjects: 0.019533 ms CreateObjectMapping: 0.013904 ms MarkObjects: 0.373446 ms  DeleteObjects: 0.013242 ms)
+
+SoundIsOn:False
+SoundVal:1
+GameModel:EASY
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+UnloadTime: 0.964735 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 204.
+Total: 2.089377 ms (FindLiveObjects: 0.012580 ms CreateObjectMapping: 0.013573 ms MarkObjects: 0.243997 ms  DeleteObjects: 0.059261 ms)
+

@@ -26,13 +26,18 @@ public class MenuController : MonoBehaviour
 
     public GameObject optionsView;
     public bool optionsShow = false;
+
+
+    private float hideX = 0;
    
     void Start()
     {
         soundIsOn = soundToggle.isOn;
         soundVal = soundSlider.value;
 
-        optionsView.transform.localPosition = new Vector3(-270, 0, 0);
+
+        hideX = -Screen.width / 2 + 80;
+        optionsView.transform.localPosition = new Vector3(hideX, 0, 0);
     }
     void Update()
     {
@@ -64,9 +69,14 @@ public class MenuController : MonoBehaviour
     public void OnClickStartBtn()
     {
         print("SoundIsOn:" + soundIsOn + "\nSoundVal:" + soundVal + "\nGameModel:" + model);
+        Application.LoadLevel("Game");
     }
     public void OnClickOptionsBtn()
     {
+        print(Screen.width);
+        print(Screen.height);
+
+
         if(!optionsShow)
         {
             iTween.MoveTo(optionsView, iTween.Hash("position", Vector3.zero, "time", 0.5f, "islocal", true,"easetype",iTween.EaseType.linear));
@@ -74,7 +84,7 @@ public class MenuController : MonoBehaviour
         }
         else
         {
-            iTween.MoveTo(optionsView,iTween.Hash("position",new Vector3(-270, 0, 0),"time",0.5f,"islocal",true,"easetype",iTween.EaseType.linear));
+            iTween.MoveTo(optionsView,iTween.Hash("position",new Vector3(hideX, 0, 0),"time",0.5f,"islocal",true,"easetype",iTween.EaseType.linear));
             optionsShow = false ;
         }
     }
